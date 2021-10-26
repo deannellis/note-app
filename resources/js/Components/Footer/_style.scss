@@ -1,0 +1,28 @@
+footer.footer {
+    min-height: $footer-height;
+    background: $footer-background-color;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    svg {
+        fill: #fff;
+        transition: $default-transition;
+        &:hover {
+            opacity: 0.84;
+        }
+    }
+    a {
+        color: #fff;
+    }
+}
+
+.footer__copyright {
+    flex-grow: 1;
+    text-align: center;
+}
+.footer__right,
+.footer__left {
+    padding: 0 $m-size;
+}

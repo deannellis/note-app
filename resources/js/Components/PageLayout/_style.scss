@@ -1,0 +1,15 @@
+main {
+  min-height: calc(100vh - (#{$header-height} + #{$footer-height}));
+}
+
+.page-layout {
+  padding: var(--m-size) var(--m-size) var(--l-size);
+  h1:not(:first-child) {
+    margin-top: var(--xl-size);
+  }
+}
+
+.page-layout--no-pad {
+  @extend .page-layout;
+  padding: 0;
+}

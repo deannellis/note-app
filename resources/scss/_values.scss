@@ -1,0 +1,51 @@
+// https://www.happyhues.co/palettes/3
+
+// COLOR VALUES
+$light-blue--tint-15: #f6f9fb;
+$light-blue--tint-25: #edf4f6;
+$light-blue--tint-25: #edf4f6;
+$light-blue--tint-50: #d7e5eb;
+$bright-blue: #3da9fc;
+$dark-blue: #094067;
+$dark-blue--72: #094067b8;
+$gray-blue: #aabeca;
+$dark-gray-blue: #364852;
+$dark-gray-blue--72: #364852b8;
+$gray: #5f6c7b;
+$dark-gray: #202325;
+$red: #ef4565;
+$yellow: #ffd803;
+
+//COLOR ROLES
+$main-accent-color: #{$bright-blue};
+$secondary-accent-color: #{$gray-blue};
+$danger-color: #{$red};
+
+// COLOR APPLICATION
+$background-color: #{$light-blue--tint-15};
+$background-color--secondary: #fff;
+$header-color: #{$dark-blue};
+$button-color: #{$gray-blue};
+$button-color--primary: var(--main-accent-color);
+$button-text-color: #{$dark-gray-blue};
+$button-text-color--primary: #fff;
+$footer-background-color: #{$dark-blue};
+$border-color: #{$dark-gray-blue--72};
+$text-color: #{$dark-gray};
+
+// SIZES
+$xs-size: 1rem;
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+
+$radius: 4px;
+
+// FONTS
+$display-font: "Ubuntu", sans-serif;
+$body-font: "Roboto", sans-serif;
+
+// COMPONENT HEIGHT
+$header-height: 7.2rem;
+$footer-height: 6.4rem;
